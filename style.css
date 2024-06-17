@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+
+}
+
+body {
+    background-color: #2c2c2c;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.container {
+    padding: 0 10px;
+    max-width: 1200x;
+    box-sizing: border-box;
+    margin: 0 10%;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    margin: 0 5px;
+    padding: 2px 8px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.signup-btn {
+    background-color: white;
+    color: black;
+}
+
+.signup-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    height: auto;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    justify-content: space-between;
+
+
+}
+
+
+.content-left {
+    flex: 0 0 30%;
+}
+
+.content-right {
+    flex: 0 0 60%;
+
+
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+.planet-img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.buynow-btn {
+    background-color: white;
+    color: black;
+    margin: 5px 0;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.buynow-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:768px) {
+    ul li a {
+        display: none;
+    }
+
+    main {
+        flex-wrap: wrap-reverse;
+
+    }
+
+    .content-left {
+        flex: 0 0 100%;
+    }
+
+    .content-right {
+        flex: 0 0 100%;
+    }
+
+}
+
